@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 16rem;
+  margin: auto;
+}
+
+.display {
+  text-align: center;
+  min-width: 5rem;
+}
+
+.number {
+  font-weight: 900;
+  font-size: 180%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.caption {
+  font-size: 85%;
+}
