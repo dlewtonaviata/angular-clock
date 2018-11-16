@@ -3,6 +3,9 @@
   justify-content: space-between;
   width: 500px;
   margin: auto;
+  margin-top: 2rem;
+  border: 1px solid black;
+  padding: 1rem;
 }
 
 .display {
@@ -13,6 +16,8 @@
 .time-value {
   font-weight: 900;
   font-size: 180%;
+  width: 128px;
+  height: 65px;
   font-family: 'Courier New', Courier, monospace;
 }
 
