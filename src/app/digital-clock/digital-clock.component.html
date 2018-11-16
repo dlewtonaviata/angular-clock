@@ -1,14 +1,17 @@
 <div class="container">
   <div class="display" id="digi-hour">
-    <div class="number">9</div>
+    <div class="time-value">{{time | date: "h"}}</div>
     <div class="caption">Hour</div>
   </div>
   <div class="display" id="digi-min">
-    <div class="number">00</div>
+    <div class="time-value">{{time | date: "mm"}}</div>
     <div class="caption">Minute</div>
   </div>
   <div class="display" id="digi-sec">
-    <div class="number">30</div>
+    <div class="time-value">{{time | date: "ss"}}</div>
     <div class="caption">Second</div>
+  </div>
+  <div class="display" id="digi-ap">
+    <div class="time-value">{{time | date: "a"}}</div>
   </div>
 </div>

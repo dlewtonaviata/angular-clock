@@ -1,17 +1,16 @@
 .container {
   display: flex;
   justify-content: space-between;
-  width: 90%;
-  max-width: 16rem;
+  width: 500px;
   margin: auto;
 }
 
 .display {
   text-align: center;
-  min-width: 5rem;
+  min-width: 4rem;
 }
 
-.number {
+.time-value {
   font-weight: 900;
   font-size: 180%;
   font-family: 'Courier New', Courier, monospace;
