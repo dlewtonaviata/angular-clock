@@ -1,0 +1,11 @@
+<button (click)="resetTime()">Sync to NIST</button>
+<div class="centered">
+  <input
+    id="showOptions"
+    type="checkbox"
+    [formControl]="showOptions"
+  > Show Options
+</div>
+<div *ngIf="showOptions.value" class="centered">
+  Options
+</div>

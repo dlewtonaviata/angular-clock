@@ -12,7 +12,9 @@ export class DigitalClockComponent implements OnInit, OnDestroy {
   time;
 
   // Constructor shouldn't DO anything... Especially use a service!
-  constructor(private timeTrackingService: TimeTrackingService) { }
+  constructor(
+    private timeTrackingService: TimeTrackingService,
+  ) { }
 
   // Use ngOnInit for any possibly complex initialization
   ngOnInit() {
