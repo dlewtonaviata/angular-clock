@@ -29,7 +29,7 @@ export class TimeTrackingService {
 
   getTime (): Observable<number> {
     const initial = this.resetTime();
-    const tracker = interval(1000).pipe(map(_ => this.time = this.time + 2500));
+    const tracker = interval(1000).pipe(map(_ => this.time = this.time + 500));
 
     return concat(initial, tracker);
   }
